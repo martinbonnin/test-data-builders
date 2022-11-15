@@ -7,7 +7,7 @@ apollo {
   packageName.set("com.example.schema")
   generateApolloMetadata.set(true)
   generateDataBuilders.set(true)
-  alwaysGenerateTypesMatching.set(listOf(".*"))
+  alwaysGenerateTypesMatching.set([".*"])
 }
 
 dependencies {
