@@ -1,0 +1,15 @@
+type Query {
+    tag: Tag!
+    direction: Direction
+}
+
+type Tag {
+    name: String
+}
+
+enum Direction {
+    South,
+    North,
+    East,
+    West,
+}

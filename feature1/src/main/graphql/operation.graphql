@@ -1,0 +1,5 @@
+query GetTag {
+    tag {
+        name
+    }
+}
